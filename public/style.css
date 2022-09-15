@@ -1,45 +1,45 @@
-body{
-    text-align: center;
-    background-color: darkslategray;
-    color: dimgrey;
-    margin: 0 auto;
-    align-content: center;
+body {
+  text-align: center;
+  background-color: darkslategray;
+  color: dimgrey;
+  margin: 0 auto;
+  align-content: center;
 }
 
-h1{
-    font-family: cursive;
-    text-align: center;
-    font-size: 40px;
-    display: block;
+h1 {
+  font-family: cursive;
+  text-align: center;
+  font-size: 40px;
+  display: block;
 }
-.car{
-    align-content: center;
-    max-width: 1200px;
-    margin: auto;
-}
-
-.card{
-    display: flex;
-    flex-wrap: wrap;
-    gap: 30px;
-    margin-left: 50px;
-    margin-top: 0px;
+.car {
+  align-content: center;
+  max-width: 1200px;
+  margin: auto;
 }
 
-.car-card{
-    border-radius: 25px;
-    padding: 0 20px;
-    background-color: #81ecec;
-    margin: 20px 0;
-    box-shadow: 5px 5px 5px 5px rgb(43, 46, 45);
-    text-align: center;
+.card {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin-left: 50px;
+  margin-top: 0px;
 }
 
-.car-card > img{
-    border-radius: 20px;
+.car-card {
+  border-radius: 25px;
+  padding: 0 20px;
+  background-color: #81ecec;
+  margin: 20px 0;
+  box-shadow: 5px 5px 5px 5px rgb(43, 46, 45);
+  text-align: center;
 }
 
-.car-card:hover{
-    box-shadow: none;
-    background-color: aquamarine;
+.car-card > img {
+  border-radius: 20px;
+}
+
+.car-card:hover {
+  box-shadow: none;
+  background-color: aquamarine;
 }
